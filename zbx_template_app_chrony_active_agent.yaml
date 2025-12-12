@@ -13,6 +13,7 @@ zabbix_export:
       items:
         - uuid: 9ad5e401459d4e03a35c600f691b8787
           name: 'Chrony Last offset'
+          type: ZABBIX_ACTIVE
           key: chrony.last_offset
           delay: 30m
           history: 90d
@@ -26,6 +27,7 @@ zabbix_export:
               value: system
         - uuid: 541482a426df4d82bd16f7cdbc26355c
           name: 'Chrony Leap status'
+          type: ZABBIX_ACTIVE
           key: chrony.leap_status
           delay: 30m
           history: 90d
@@ -47,6 +49,7 @@ zabbix_export:
                   value: availability
         - uuid: 83d88bd150ab4ecab84326f12d0b6d41
           name: 'Chrony synchronized server'
+          type: ZABBIX_ACTIVE
           key: chrony.ref_id
           delay: 30m
           history: 90d
@@ -68,6 +71,7 @@ zabbix_export:
                   value: notice
         - uuid: 99c5a22f39894d8eb4a3aafd323e9015
           name: 'Chrony RMS offset'
+          type: ZABBIX_ACTIVE
           key: chrony.rms_offset
           delay: 30m
           history: 90d
@@ -81,6 +85,7 @@ zabbix_export:
               value: system
         - uuid: e2a810bf59534910b0c81d2cfebafcfe
           name: 'Chrony Root delay'
+          type: ZABBIX_ACTIVE
           key: chrony.root_delay
           delay: 30m
           history: 90d
@@ -94,6 +99,7 @@ zabbix_export:
               value: system
         - uuid: 3b8f42ce771b43179fc457997027609b
           name: 'Chrony Stratum'
+          type: ZABBIX_ACTIVE
           key: chrony.stratum
           delay: 30m
           history: 90d
@@ -105,6 +111,7 @@ zabbix_export:
               value: system
         - uuid: 01e30bb30e6e45999c7325e11f2584db
           name: 'Chrony Update interval'
+          type: ZABBIX_ACTIVE
           key: chrony.update_interval
           delay: 30m
           history: 90d
@@ -118,6 +125,7 @@ zabbix_export:
               value: system
         - uuid: d6e5fe75a4024375b1e5156d6ea19c2f
           name: 'Version of chrony(d) running'
+          type: ZABBIX_ACTIVE
           key: chrony.version
           delay: 6h
           history: 90d
